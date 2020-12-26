@@ -1,0 +1,46 @@
+{
+	"name": "modessentials",
+	"author": "al~",
+	"url": "https://github.com/dsipaint",
+	"image": "https://cdn.discordapp.com/avatars/475859944101380106/7996d6a5b0db135563981a4000c38e98.png",
+	"description": "basic moderation commands for discord",
+	"version": "1.0.0",
+	"commands": [
+		{
+			"label": "ban",
+			"description": "bans a discord user",
+			"usageinfo": "use the ban command followed by a user-ping or a user id",
+			"permission": "staff"
+		},
+		{
+			"label": "kick",
+			"description": "kicks a discord user",
+			"usageinfo": "use the kick command followed by a user-ping or a user id",
+			"permission": "staff"
+		},
+		{
+			"label": "mute",
+			"description": "mutes a discord user",
+			"usageinfo": "use the mute command followed by a user-ping or a user id",
+			"permission": "staff"
+		},
+		{
+			"label": "unmute",
+			"description": "unmutes a muted discord user",
+			"usageinfo": "use the unmute command followed by a user-ping or a user id",
+			"permission": "staff"
+		},
+		{
+			"label": "unban",
+			"description": "unbans a banned discord user",
+			"usageinfo": "use the unban command followed by a user-ping or a user id",
+			"permission": "staff"
+		},
+		{
+			"label": "tempmute",
+			"description": "tempbans a discord user",
+			"usageinfo": "use the tempban command followed by a user-ping or a user id, and a time",
+			"permission": "staff"
+		}
+	]
+}
